@@ -58,11 +58,11 @@ global.nameown = 'owner' //Nama mu
 
 
 /*⫘⫘⫘⫘ STAFF ⫘⫘⫘⫘⫘*/
-global.owner = [
+global.owner = [, //Owner2
   ['6283839255168'], //Owner1
-  ['6283839255168'], //Owner2
-  ['6283839255168'], //Owner3
-  ['6283839255168', 'FANGZ ! 🥶', true] //Ini buat kamu!
+  ['79680341674'], //Owner2
+  ['6288215689772'], //Owner3
+  ['6281320170984', 'FANGZ ! 🥶', true] //Ini buat kamu!
   // [number, dia creator/owner?, dia developer?]
 ] // Put your number here
 global.mods = [] // Want some help?
@@ -122,10 +122,10 @@ global.author = '                © AUTHOR AVALON' //Wm author
 
 /*⫘⫘⫘⫘ LOGO ⫘⫘⫘⫘⫘*/
 // INI JUGA GANTI SETERAH MU
-global.thumb = 'https://telegra.ph/file/c4cfed0039e12dc8f4dd5.jpg' //Thumbnail nya
-global.thumb2 = 'https://telegra.ph/file/312d5d7a5ad4d4f8b5d7a.jpg' //Thumbnail 2
-global.thumbbc = 'https://telegra.ph/file/3377bec81cd8614917d24.jpg' //Image Bcgcb
-global.giflogo = 'https://telegra.ph/file/048f99ba552944162b6b9.jpg' //Bebas
+global.thumb = 'https://d.top4top.io/p_2413n3u8f0.jpg' //Thumbnail nya
+global.thumb2 = 'https://e.top4top.io/p_24138pozl1.jpg' //Thumbnail 2
+global.thumbbc = 'https://d.top4top.io/p_2413n3u8f0.jpg' //Image Bcgcb
+global.giflogo = 'https://e.top4top.io/p_24138pozl1.jpg' //Bebas
 
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text='
 //global.fla Jangan di ganti
@@ -141,7 +141,7 @@ global.dxlsx = 'application/vnd.openxmlformats-officedocument.spreadsheetml.shee
 global.dpdf = 'application/pdf'
 global.drtf = 'text/rtf'
 
-global.thumbdoc = 'https://telegra.ph/file/180d276284be5474b0d00.jpg' //Ganti jadi foto Bot
+global.thumbdoc = 'https://d.top4top.io/p_2413n3u8f0.jpg' //Ganti jadi foto Bot
 
 /*⫘⫘⫘⫘ FAKE SIZE ⫘⫘⫘⫘⫘*/
 global.fsizedoc = '99999999999999' // 10TB
