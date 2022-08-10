@@ -28,6 +28,7 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
 	{title: "⦅🏢⦆ ✦ GcOnly", rowId: `${usedPrefix + command} gconly`},
 	{title: "⦅📷⦆ ✦ SwOnly", rowId: `${usedPrefix + command} swonly`},
 	{title: "⦅📷⦆ ✦ animeupdate", rowId: `${usedPrefix + command} animeupdate`},
+	{title: "⦅📷⦆ ✦ animenews", rowId: `${usedPrefix + command} animenews`},
 	]
     },
 ]
@@ -261,6 +262,14 @@ const listMessage = {
         throw false
       }
       global.opts['animeupdate'] = isEnable
+      break
+    case 'animenews':
+      isAll = true
+      if (!isROwner) {
+        global.dfail('rowner', m, conn)
+        throw false
+      }
+      global.opts['animenews'] = isEnable
       break
     case 'pconly':
     case 'privateonly':
